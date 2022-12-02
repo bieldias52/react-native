@@ -1,0 +1,46 @@
+if (media > 10 ) {
+  media = (media/10)
+}
+if (media >= 9) {
+
+    Alert.alert(
+      "Boa porra, sua mensão é SS", 
+      `Satus: Aprovado
+Media: ${media}`
+    )
+  
+}else if (media < 9 && media >= 7) {
+  return (
+    Alert.alert(
+      "Parabéns, sua mensão é MS",
+      `Satus: Aprovado 
+Media: ${media}`
+    )
+  )
+}else if (media < 7 && media >= 5) {
+  return (
+    Alert.alert(
+      "Raspando, sua mensão é MM",
+      `Satus: Aprovado
+Media: ${media}`
+    )
+  )
+}else if (media < 5 && media >= 3) {
+  return (
+    Alert.alert(
+      "Aí é foda né!, infelizment sua mensão é MI",
+      `Satus: Reprovado
+Media: ${media}`
+    )
+  )
+}else if (media < 3) {
+  return (
+    Alert.alert(
+      "Aí é foda né!, infelizment sua mensão é II, ",
+      `Satus: Nem 3 é sacanegem, reprovado com força
+Media: ${media}`
+    )
+  )
+} else {
+return false
+}

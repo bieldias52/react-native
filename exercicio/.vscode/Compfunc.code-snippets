@@ -1,0 +1,21 @@
+{
+	
+	 "Print to console": {
+	 	"scope": "javascript,typescript",
+	 	"prefix": "compfuc",
+	 	"body": [
+	 		"import React from 'react'",
+			"import { Text, View } from 'react-native'",
+			"import Estilo from './estilo'",
+			"",
+			"export default prop => {",
+			"    return (",
+			"        <Text>",
+						"",
+			"        </Text>",
+			"    )",
+			"}",
+	 	]
+	 	
+	 }
+}
